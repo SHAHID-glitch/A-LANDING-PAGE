@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #3498db;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .features h2 {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        
+        .feature-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            width: 30%;
+            min-width: 250px;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #3498db;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MYBRAND</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Our Service</h1>
+        <p>Discover the best solution for your needs with our amazing product that will transform your experience.</p>
+        <p>Join thousands of satisfied customers and take your first step towards success.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+    
+    <section class="features">
+        <h2>Why Choose Us</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Service</h3>
+                <p>Our lightning-fast delivery ensures you get what you need when you need it.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <h3>Reliable</h3>
+                <p>Trusted by thousands of customers with 99.9% uptime guarantee.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💎</div>
+                <h3>Premium Quality</h3>
+                <p>We use only the highest quality materials and components.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p> My Landing Page.</p>
+    </footer>
+</body>
+</html>
